@@ -1,0 +1,43 @@
+{
+  "name": "static_coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "npm": "please_use_yarn_instead",
+    "node": "14.x"
+  },
+  "scripts": {
+    "dev": "yarn gulp",
+    "wpdev": "yarn gulp wpdev",
+    "clean": "yarn gulp clean",
+    "build": "yarn gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gig-ryota-shimizu/static_coding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gig-ryota-shimizu/static_coding/issues"
+  },
+  "homepage": "https://github.com/gig-ryota-shimizu/static_coding#readme",
+  "dependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "babel-loader": "^8.2.3",
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "glob": "^7.2.0",
+    "gsap": "^3.9.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-pug": "^5.0.0",
+    "webpack": "^5.68.0",
+    "webpack-stream": "^7.0.0"
+  }
+}
